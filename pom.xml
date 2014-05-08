@@ -12,6 +12,14 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>dummy</id>
+      <name>dummy repo</name>
+      <url>file://${basedir}/target/deploy</url>
+    </repository>
+  </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
